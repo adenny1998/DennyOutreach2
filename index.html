@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Outreach Tracker</title>
+
+  <!-- React + Babel -->
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+  <style>
+    body { font-family: system-ui, sans-serif; margin:0; background:#fafafa; color:#111; }
+    header { background:white; padding:1rem; border-bottom:1px solid #ddd; font-weight:600; }
+    main { max-width:1100px; margin:auto; padding:1rem; }
+    .tabs { margin-bottom:1rem; }
+    .tabs button {
+      margin:0.25rem; padding:0.5rem 1rem; border:1px solid #ccc; border-radius:8px;
+      background:#fff; cursor:pointer; font-weight:600;
+    }
+    .tabs button.active { background:#111; color:white; border-color:#111; }
+    table { border-collapse:collapse; width:100%; margin-top:0.5rem; }
+    th,td { border-bottom:1px solid #eee; padding:8px; text-align:left; }
+    input,select,textarea { width:100%; padding:6px 8px; border-radius:6px; border:1px solid #ccc; font-family:inherit; }
+    .btn { padding:6px 10px; border-radius:6px; border:1px solid #111; background:#111; color:white; font-weight:600; cursor:pointer; }
+    .btn.danger { background:#b91c1c; border-color:#b91c1c; }
+  </style>
+</head>
+<body>
+  <header>Outreach Tracker</header>
+  <main><div id="root">Loading...</div></main>
+
+  <script type="text/babel" src="app.js?v=1"></script>
+</body>
+</html>
